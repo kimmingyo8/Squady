@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router';
 
-const MeetingEditPage = () => {
+const SquadDetailPage = () => {
   const router = useRouter();
   const { id } = router.query;
   return (
     <div>
-      <h1>MeetingEditPage:{id}</h1>
+      <h1>SquadDetailPage:{id}</h1>
     </div>
   );
 };
 
-export default MeetingEditPage;
+export default SquadDetailPage;

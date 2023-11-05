@@ -15,13 +15,13 @@ const Navbar = () => {
           </Link>
         </h1>
         <div className="navbar__list">
-          <Link href="/meetings" className="navbar__list--item">
+          <Link href="/squads" className="navbar__list--item">
             모임 목록
           </Link>
-          <Link href="/meetings/new" className="navbar__list--item">
+          <Link href="/squads/new" className="navbar__list--item">
             모임 생성
           </Link>
-          <Link href="/users/meeting" className="navbar__list--item">
+          <Link href="/users/squad" className="navbar__list--item">
             참여 모임
           </Link>
           <Link href="/users/login" className="navbar__list--item">
@@ -42,13 +42,13 @@ const Navbar = () => {
       {isOpen && (
         <header className="navbar--mobile">
           <div className="navbar__list--mobile">
-            <Link href="/meetings" className="navbar__list--item--mobile">
+            <Link href="/squads" className="navbar__list--item--mobile">
               모임 목록
             </Link>
-            <Link href="/meetings/new" className="navbar__list--item--mobile">
+            <Link href="/squads/new" className="navbar__list--item--mobile">
               모임 등록
             </Link>
-            <Link href="/users/meeting" className="navbar__list--item--mobile">
+            <Link href="/users/squad" className="navbar__list--item--mobile">
               참여 모임
             </Link>
             <Link href="/users/login" className="navbar__list--item--mobile">

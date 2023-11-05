@@ -79,3 +79,7 @@ body {
     @apply flex flex-col items-center gap-4 px-[18px] py-6;
   }
 }
+
+.infoWindow {
+  @apply bg-violet-900 text-white block text-sm text-center rounded-md px-2 leading-6;
+}
